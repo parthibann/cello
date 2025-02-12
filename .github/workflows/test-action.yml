@@ -29,7 +29,7 @@ jobs:
       run: echo ${{steps.rpm.outputs.source_rpm_path}}
     
     - name: Upload artifact
-      uses: actions/upload-artifact@v1.0.0
+      uses: actions/upload-artifact@v4.6.0
       with:
         # Artifact name
         name: Binary RPM
